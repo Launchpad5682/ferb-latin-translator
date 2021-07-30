@@ -1,0 +1,103 @@
+:root {
+  --orange: #ef6f1a;
+  --green: #3aef1a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+body {
+  background-color: var(--orange);
+}
+
+nav,
+footer {
+  background-color: var(--green);
+  width: 100%;
+  padding: 30px 0;
+}
+
+nav > h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+div.main-body {
+  width: 100%;
+  padding: 0 10%;
+}
+
+textarea#txt-input {
+  margin: 40px 0;
+  height: 20vh;
+  width: 80%;
+  display: block;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+button#btn-translate {
+  height: 50px;
+  width: 180px;
+  background-color: var(--green);
+  border: none;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+p#output-heading {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+div#output {
+  height: 20vh;
+  width: 80%;
+  margin: 40px 0;
+  padding: 0.8rem;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  background-color: white;
+  font-weight: 800;
+}
+
+footer {
+  text-align: center;
+  line-height: 30px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p#about {
+  font-weight: 900;
+}
+
+p#author {
+  font-weight: 600;
+}
+
+p#description {
+  font-weight: 400;
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  p#description {
+    font-weight: 400;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+  }
+}
